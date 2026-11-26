@@ -2105,6 +2105,28 @@ em {
   margin: -2px 0.5rem 0 0;
 }
 
+.availability-wrap {
+  margin-bottom: 1.5rem;
+}
+
+.availability-wrap .availability {
+  margin-bottom: 0.55rem;
+}
+
+.availability-sub {
+  margin: 0;
+  max-width: 60ch;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.62);
+}
+
+@media (min-width: 900px) {
+  .availability-wrap {
+    margin-bottom: 1.1rem;
+  }
+}
+
 /* Viewfinder on phones: thinner gutter, smaller corners, clear of the text */
 @media (max-width: 599px) {
   .viewfinder {
@@ -2127,7 +2149,7 @@ em {
 
 /* Short screens (small laptops): the hero is taller than the screen,
    so drop the bottom labels and scroll cue that would sit on the content */
-@media (max-height: 860px) {
+@media (max-height: 1000px) {
   .vf-info,
   .scroll-cue {
     display: none !important;

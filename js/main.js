@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var ROLES = {
     all: {
       title: null, // null = cycle through every role
-      intro: 'I shoot, edit and plan social content in Glasgow, working with community organisations and university teams to tell stories that hold attention on Instagram and TikTok.',
+      intro: 'I shoot, edit and plan social content, working with community organisations, university teams and brands to tell stories that hold attention on Instagram and TikTok.',
       services: ['shoot', 'edit', 'drone', 'photo', 'strategy', 'manage'],
       results: ['followers', 'watchtime', 'views', 'aerial'],
       focus: [],
