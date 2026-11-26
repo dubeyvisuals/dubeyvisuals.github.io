@@ -1,3 +1,9 @@
 .DS_Store
 Thumbs.db
 desktop.ini
+# Original video files (large) - only the compressed versions in media/ get published
+raw/
+
+# Original photo uploads (web versions are the .jpg files)
+images/*.png
+!images/og-card.png
